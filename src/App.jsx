@@ -5,6 +5,7 @@ import Ejercicio4 from "./components/ejercicio4"
 import Ejercicio5 from "./components/ejercicio5"
 import Ejercicio6 from "./components/Ejercicio6"
 import Ejercicio7 from "./components/Ejercicio7"
+import Ejercicio8 from "./components/Ejercicio8"
 
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
       <Ejercicio5></Ejercicio5>*/}
       <Ejercicio6></Ejercicio6>
       <Ejercicio7></Ejercicio7>
+      <Ejercicio8></Ejercicio8>
     </div>
+
 
   )
 }

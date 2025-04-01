@@ -1,5 +1,5 @@
 import { useState } from "react"
-import "./Ejercicio6.css"
+import styles from "./Ejercicio6.module.css"
 function Ejercicio6() {
     const [list, setList] = useState(["hola", "como estas", "perro"])
     const [newTask, setNewTask] = useState("")
@@ -15,20 +15,20 @@ function Ejercicio6() {
         setList(tareasFiltradas)
     }
     return (
-        <div className="contenedorLista">
-            <h1 className="titulo">Mis tareas</h1>
+        <div className={styles.contenedorLista}>
+            <h1 className={styles.titulo}>Mis tareas</h1>
             <input type="text" value={newTask} onChange={(e) => { setNewTask(e.target.value) }} />
             {list.length === 0 ? (<p>no hay tareas</p>) : (
-                <ul className="lista">
+                <ul className={styles.lista}>
                     {list.map((tarea, index) => (
-                        <li className="tarea" key={index}>{tarea}
-                            <button className="botonLista" onClick={() => { borrar(index) }}>Borrar</button>
+                        <li className={styles.tarea} key={index}>{tarea}
+                            <button className={styles.botonLista} onClick={() => { borrar(index) }}>Borrar</button>
                         </li>
 
                     ))}
                 </ul>
             )}
-            <button className="botonAgregar" onClick={agregar}>Agregar</button>
+            <button className={styles.botonAgregar} onClick={agregar}>Agregar</button>
             <h2>contador de listas: {list.length}</h2>
         </div>
     )
