@@ -1,0 +1,42 @@
+.contenedor {
+  text-align: center;
+  padding: 20px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.modoOscuro {
+  color: white;
+  background-color: black;
+}
+
+.modoClaro {
+  color: black;
+  background-color: white;
+}
+
+.boton {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton:hover {
+  transform: scale(1.1);
+}
+
+.botonOscuro {
+  background-color: white;
+  color: black;
+}
+
+.botonClaro {
+  background-color: blueviolet;
+  color: white;
+}
+
+.titulo {
+  font-size: 1.9rem;
+}

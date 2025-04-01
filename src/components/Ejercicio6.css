@@ -1,0 +1,24 @@
+.titulo {
+  color: rgb(0, 205, 31);
+}
+
+.contenedorLista {
+  text-align: center;
+}
+
+.lista {
+  list-style-type: none;
+}
+
+.botonLista {
+  background-color: blue;
+  color: white;
+  margin: 5px;
+}
+.botonAgregar {
+  background-color: blue;
+  color: white;
+}
+.tarea {
+  padding: 4px;
+}
