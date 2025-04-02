@@ -6,7 +6,7 @@ import Ejercicio5 from "./components/ejercicio5"
 import Ejercicio6 from "./components/Ejercicio6"
 import Ejercicio7 from "./components/Ejercicio7"
 import Ejercicio8 from "./components/Ejercicio8"
-
+import Ejercicio9 from "./components/Ejercicio9"
 
 function App() {
   return (
@@ -15,10 +15,11 @@ function App() {
       <Ejercicio2></Ejercicio2>
       <Ejercicio3></Ejercicio3>
       <Ejercicio4></Ejercicio4>
-      <Ejercicio5></Ejercicio5>*/}
+      <Ejercicio5></Ejercicio5>
       <Ejercicio6></Ejercicio6>
       <Ejercicio7></Ejercicio7>
-      <Ejercicio8></Ejercicio8>
+      <Ejercicio8></Ejercicio8>*/}
+      <Ejercicio9></Ejercicio9>
     </div>
 
 

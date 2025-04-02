@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import styles from "./Ejercicio7.module.css"; // Importamos CSS Module
-
 function Ejercicio7() {
     const temaGuardado = localStorage.getItem("modoOscuro") === "true";
     const [modoOscuro, setModoOscuro] = useState(temaGuardado);
